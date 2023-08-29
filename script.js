@@ -68,7 +68,7 @@ function onNavItemClick(id) {
 const searchButton = document.getElementById("search-button");
 const searchText = document.getElementById("search-text");
 
-
+//for search button
 searchButton.addEventListener("click", () => {
     const query = searchText.value;
     if (!query) return;
